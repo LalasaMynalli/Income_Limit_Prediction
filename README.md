@@ -7,4 +7,4 @@ It classifies people into above or below income limit based on various paramater
 # Objective
 Aiming an efficient and simplified coding, I tried to use the most efficient models (catboost) and Auto libraries (autoviz)
 
-Please feel to suggest code improvisations as I am deep believer of co-learning by doing
+Please feel to suggest code improvisations as I am a deep believer of co-learning by doing
