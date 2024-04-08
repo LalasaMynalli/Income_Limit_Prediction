@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from model import predict, ordinal_encoder
 import numpy as np
+import catboost
 
 st.set_page_config (page_title = 'Income limit prediction',page_icon = '💹', layout = 'centered')
 
