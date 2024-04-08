@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 
-model_path = r"Model\catboost_model.joblib"
+model_path = "Model\catboost_model.joblib"
 model = joblib.load(model_path)
 
 def predict(data):
