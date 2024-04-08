@@ -1,5 +1,6 @@
 import joblib
 import numpy as np
+import catboost
 
 model_path = r"Model/catboost_model.joblib"
 model = joblib.load(model_path)
