@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 
-model_path = r"C:\Users\Dell\Desktop\ML course\Income_Inequality_Prediction_Project2\Model\catboost_model.joblib"
+model_path = r"Model\catboost_model.joblib"
 model = joblib.load(model_path)
 
 def predict(data):
