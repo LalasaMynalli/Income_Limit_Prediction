@@ -1,6 +1,6 @@
 import joblib
 import numpy as np
-import catboost
+from catboost import CatBoostClassifier
 
 model_path = r"Model/catboost_model.joblib"
 model = joblib.load(model_path)
